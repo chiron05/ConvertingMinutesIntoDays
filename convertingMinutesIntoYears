@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class covertingMinutesIntoDays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Input the number of minutes: ");
+		int x=sc.nextInt();
+		int days=(x/1440)%365;
+		int year= x/525600;
+		System.out.println(x+" minutes is approximately "+year+" years and "+days+" days");
+	
+
+	}
+
+}
